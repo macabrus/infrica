@@ -1,0 +1,11 @@
+
+fn1:
+  ttl: 1d  # expiration
+  shared: true  # global for all contexts
+  max_mem: 1  # max items in memory
+  max_disk: 100  # max items on disk, not implemented
+
+fn2:
+  ttl: 1d
+  evicts:
+    - fn1

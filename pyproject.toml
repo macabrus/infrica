@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "infrica"
+version = "0.1.0"
+description = ""
+authors = ["Bernard Crnković <bernard.crnkovic@happening.xyz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fabric = "^3.2.2"
+ruamel-yaml = "^0.18.6"
+pytimeparse = "^1.1.8"
+attrs = "^24.2.0"
+cattrs = "^24.1.2"
+click = "^8.1.7"
+cachetools = "^5.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+rich = "^13.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
